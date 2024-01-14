@@ -19,7 +19,7 @@ header {
 }
 
 .sidebar {
-    flex: 0 0 20%; /* Fixed width for the sidebar */
+    flex: 0 0 20%;
     background-color: #eee;
     padding: 1em;
 }

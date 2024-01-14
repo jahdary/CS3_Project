@@ -22,6 +22,9 @@ header {
     flex: 0 0 20%;
     background-color: #eee;
     padding: 1em;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar ul {
@@ -81,4 +84,43 @@ footer {
 
 .social-media {
     filter: grayscale(100%);
+}
+
+.right-sidebar,
+.left-sidebar {
+    flex: 0 0 20%;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-sidebar .article-preview,
+.left-sidebar .related-links {
+    margin-bottom: 1em;
+}
+
+.right-sidebar .article-preview h4,
+.left-sidebar .related-links h4 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.right-sidebar .article-preview ul,
+.left-sidebar .related-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-sidebar .article-preview a,
+.left-sidebar .related-links a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.right-sidebar .article-preview a:hover,
+.left-sidebar .related-links a:hover {
+    text-decoration: underline;
 }
