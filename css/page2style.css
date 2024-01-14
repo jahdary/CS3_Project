@@ -44,7 +44,7 @@ header {
 }
 
 main {
-    flex: 1; /* Takes up the remaining width */
+    flex: 1;
     padding: 1em;
 }
 
@@ -68,13 +68,13 @@ footer {
 }
 
 .social-media a.facebook {
-    background-image: url('download.png');
+    background-image: url('/images/fb.png');
 }
 
 .social-media a.twitter {
-    background-image: url('images/twitter.png');
+    background-image: url('/images/twt.png');
 }
 
 .social-media a.instagram {
-    background-image: url('images/twitter.png');
+    background-image: url('/images/ig.jpg');
 }

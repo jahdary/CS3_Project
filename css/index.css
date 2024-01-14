@@ -79,15 +79,15 @@ footer {
 }
 
 .social-media a.facebook {
-    background-image: url('download.png');
+    background-image: url('/images/fb.png');
 }
 
 .social-media a.twitter {
-    background-image: url('download (2).png');
+    background-image: url('/images/twt.png');
 }
 
 .social-media a.instagram {
-    background-image: url('download3.jpg');
+    background-image: url('/images/ig.jpg');
 }
 
 nav {
