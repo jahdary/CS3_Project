@@ -90,6 +90,10 @@ footer {
     background-image: url('/images/ig.jpg');
 }
 
+.social-media {
+    filter: grayscale(100%);
+}
+
 nav {
     background-color: #444;
     color: #fff;

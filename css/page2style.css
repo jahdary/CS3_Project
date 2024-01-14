@@ -78,3 +78,7 @@ footer {
 .social-media a.instagram {
     background-image: url('/images/ig.jpg');
 }
+
+.social-media {
+    filter: grayscale(100%);
+}

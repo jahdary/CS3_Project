@@ -82,6 +82,10 @@ footer {
     background-image: url('/images/ig.jpg');
 }
 
+.social-media {
+    filter: grayscale(100%);
+}
+
 .right-sidebar,
 .left-sidebar {
     flex: 0 0 20%;
