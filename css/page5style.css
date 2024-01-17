@@ -64,34 +64,30 @@ footer {
 
 .social-media a {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     margin-right: 1em;
-    background-size: 90px 30px;
-    transition: background-position 0.3s ease-in-out;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .social-media a.facebook {
-    background-image: url('/images/fb.png');
+    background-image: url('../images/fb.png');
     background-position: 0 0;
 }
 
 .social-media a.twitter {
-    background-image: url('/images/twt.png');
-    background-position: -30px 0;
+    background-image: url('../images/twt.png');
+    background-position: 0 0;
 }
 
 .social-media a.instagram {
-    background-image: url('/images/ig.jpg');
-    background-position: -60px 0;
-}
-
-.social-media:hover a {
-    filter: grayscale(100%);
+    background-image: url('../images/ig.png');
+    background-position: 0 0;
 }
 
 .social-media a:hover {
-    background-position: 0 -30px;
+    filter: grayscale(100%);
 }
 
 .right-sidebar,
